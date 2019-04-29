@@ -1,0 +1,79 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand:400,700');
+
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+body {
+  background-color: #f9f9f9;
+  color: #2A2A2A;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #686868;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #34B4FE;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #242525;
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.container {
+  margin: 18px auto;
+  width: 720px;
+  margin-bottom:48px;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#banner {
+  background-image: url("https://source.unsplash.com/1600x900/?construction,code");
+  height: 450px;
+  background-size: cover;
+  margin-bottom: 100px;
+  padding-top: 160px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media(max-width: 720px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media(max-width: 540px) {
+  .container {
+    width: 280px;
+  }
+}
+
+
